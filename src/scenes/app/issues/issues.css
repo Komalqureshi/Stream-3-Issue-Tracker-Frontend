@@ -1,0 +1,175 @@
+.issues{
+    padding:20px;
+    padding-top:50px;
+}
+.issues .table{
+    box-shadow: none !important;
+    border:0 !important;
+    background-color: #f1f1f1 !important;
+}
+.issuescol{
+    width:70% !important;
+}
+.comment{
+    border-radius:0 !important;
+}
+.right.menu{
+    float:right;
+}
+.right.menu i:hover{
+    cursor: pointer;
+}
+
+.browseissues{
+    padding:0 !important;
+}
+.browseissues input{
+    border-radius:0 !important;
+}
+
+.firstcard .header{
+    /* text-align: center !important; */
+    font-family:'Ubuntu',sans-serif;
+    font-size:18px;
+}
+.firstcard button{
+    float:right;
+    height:30px;
+}
+.issuerow{
+    box-shadow: 0 1px 1px -1px gray !important;
+    /* background-color: #f1f1f1 !important; */
+}
+.status{
+    color:#f1f1f1 !important;
+}
+.status.open{
+    background-color:olivedrab !important;
+}
+.status.reopen{
+    background-color:orange !important;
+}
+.status.closed{
+    background-color: green !important;
+}
+
+
+.issuerow:hover{
+    cursor: pointer;
+    background-color:#e9e9e9;
+}
+.issuerow .title{
+    padding:10px;
+}
+
+.issueview{
+    padding:30px;
+    padding-left: 200px !important;
+    padding-right:200px !important;
+}
+.issueview .status.tiny{
+    margin-left:20px;
+}
+.issueview .card{
+    width:100%;
+    background-color:#f1f1f1;
+    border:0 !important;
+    padding-top:10px !important;
+    box-shadow: none !important;
+}
+.issueview .header{
+    padding:10px;
+    font-family:'Ubuntu',sans-serif;
+    font-weight:500;
+    color:#5B8FDE;
+    text-align:left;
+    font-size:16px;
+}
+.issueview .moreactions button{
+    height:25px !important;
+    font-size:11px;
+    margin-top:0px !important;
+    /* width:50px; */
+    float:right;
+}
+.issueview .moreactions{
+    padding:3px !important;
+    max-height:40px !important;
+}
+.issueview .comments{
+    text-align:left;
+    box-sizing: border-box;
+    padding-left:10px !important;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight:300;
+}
+.issueview .detail{
+    text-align:left;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight:300;
+}
+.issueview .ql-editor {
+    min-height: 5em !important;
+}
+.issueview .attemptedsolution{
+    text-align:left;
+}
+.issueview .button{
+    float:left;
+    background-color:#5B8FDE;
+    color:#f1f1f1;
+    border-radius:3px !important;
+}
+.issueview .actions .button{
+    float:right;
+    border-radius:30px !important;
+    font-weight:bold;
+}
+.issueview .actions .button.true{
+    background-color:#5B8FDE !important;
+}
+
+@media(max-width:768px){
+    .row a td{
+        display:none !important;
+    }
+    .issueview{
+        padding:50px !important;
+        padding-right:10px !important;
+        padding-left:10px !important;
+    }
+    .urgency{
+        display: none !important;
+    }
+    .issueview .header{
+        font-size:18px;
+    }
+    .table table thead{
+        display: none !important;
+    }
+    .table table .assignee::before{
+        content:'Assigned to';
+        color:rgb(7, 77, 182);
+        padding-right:20px;
+    }
+    .table table .sec{
+        float:right;
+    }
+    .table table td .status{
+        float:left;
+        margin-top:0px;
+        margin-right:10px !important;
+    }
+    .table table td .label.type{
+        float:left;
+        margin-top:-7px;
+    }
+    .table table .assignee{
+        visibility: hidden;
+    }
+}
+@media(min-width:900px){
+    .issueview{
+        padding-top:40px !important;
+    }
+}

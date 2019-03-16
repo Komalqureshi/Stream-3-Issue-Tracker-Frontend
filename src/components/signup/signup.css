@@ -1,0 +1,44 @@
+.signup{
+    box-shadow: none !important;
+    width:100% !important;
+    /* background-color:#f1f1f1 !important; */
+    background: transparent !important;
+    /* margin-top:50px !important; */
+}
+.signup .header{
+    color:#18183c;
+    font-family: 'Ubuntu',sans-serif;
+    /* text-align: left; */
+    font-size:15px !important;
+    font-weight:bolder;
+}
+.signup button{
+    margin-top:-5px !important;
+    float:left;
+    /* background-color: #c0c0c0 !important; */
+}
+.signup .content{
+    border:0 !important;
+}
+.signup input{
+    border-radius:30px !important;
+}
+.signinbtn{
+    margin-top:-5px !important;
+    float:right !important;
+}
+.signinbtn.button{
+    background-color:#f1f1f1 !important;
+}
+button.centered{
+    color:#fafafa !important;
+    margin:0 43% !important;
+    background-color:#18183c !important;
+}
+.signup .warning.message{
+    bottom:160px;
+}
+input.error{
+    border-color:.5px solid red;
+    color:red !important;
+}

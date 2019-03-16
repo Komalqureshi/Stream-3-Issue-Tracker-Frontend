@@ -1,0 +1,29 @@
+.login{
+    margin-top:-20px;
+    width:100% !important;
+    box-shadow:none !important;
+    /* background-color:#f1f1f1 !important; */
+    background:transparent !important;
+    z-index:9999;
+}
+.login .header{
+    color:#18183c;
+    font-family: 'Ubuntu',sans-serif;
+    /* text-align: left; */
+    font-size:15px !important;
+    font-weight:bolder;
+}
+.forgotpwd{
+    color:#2B61BD !important;
+    float:right;
+}
+.login .content{
+    border:0 !important;
+}
+.login input{
+    border-radius:30px !important;
+}
+.login button{
+    float:left;
+    border-radius:30px !important;
+}

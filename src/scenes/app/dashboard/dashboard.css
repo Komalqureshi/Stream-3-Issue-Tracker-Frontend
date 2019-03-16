@@ -1,0 +1,99 @@
+.dashboard{
+    padding:40px;
+}
+.dashboard .firstrow .card{
+    width:100%;
+    margin-top:10px;
+    min-height:200px;
+}
+.dashboard .header.dash{
+    float:left;
+    font-family: 'Ubuntu',sans-serif;
+    font-size:20px;
+}
+.dashboard .card{
+    width:100% !important;
+}
+.dashboard .card .header{
+    text-align: left;
+    padding:10px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.dashboard .card .content{
+    font-size:40px;
+    min-height:130px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.dashboard .card .content.extra{
+    font-size:15px;
+    text-align:left;
+}
+.latestissues .content{
+    font-size:13px !important;
+    font-family:'Ubuntu',sans-serif;
+    text-align:left;
+    padding:10px !important;
+    background-color:#f1f1f1 !important;
+}
+.latestissues .content:hover{
+    background-color:#fafafa !important;
+}
+.latestissue{
+    min-height:20px !important;
+    max-height:40px !important;
+}
+
+.iconcontent{
+    max-height:30px !important;
+    min-height:30px !important;
+    padding:0 !important;
+    border:0 !important;
+}
+.iconcontent .icon{
+    float:right;
+    color:#2C6BB5 !important;
+    padding-right:50px !important;
+}
+.bvi{
+    padding:10px !important;
+}
+.comingfeatures{
+    padding:0 !important;
+    height:100%;
+    background-color:#f1f1f1 !important;
+}
+.comingfeatures .content{
+    font-size:15px !important;
+    text-align:left;
+    padding:10px !important;
+    max-height:40px !important;
+    min-height:40px !important;
+    color:#2C6BB5;
+}
+.comingfeatures .content .votes{
+    float:right !important;
+    font-size:20px;
+    font-weight:bold;
+    color:#c23003 !important;
+}
+
+.statistic .label{
+    font-size:10px !important;
+}
+
+@media (max-width:768px){
+    .dashboard .card{
+        resize: both !important;
+    }
+    .app-content{
+        margin-top:150px;
+        padding-left:0;
+        padding-right:0;
+    }
+    .dashboard .card .content{
+        font-size:40px;
+    }
+    .dashboard .card .content.extra{
+        font-size:10px;
+    }
+}

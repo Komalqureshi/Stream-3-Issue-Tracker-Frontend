@@ -1,0 +1,42 @@
+.modals .header{
+    min-height:80px;
+}
+.types span{
+    position: absolute;
+    font-size:15px;
+    margin-top:20px !important;
+    margin-bottom:-10px !important;
+}
+.types{
+    margin-top:-10px;
+}
+.types button.active{
+    background-color:green !important;
+}
+.types button{
+    height:25px;
+    padding:5px !important;
+    background-color:#fff !important;
+    box-shadow:0 0 0 1px #717171 !important;
+}
+/* Bubble Theme */
+.app .ql-bubble .ql-editor {
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+.ql-editor {
+    min-height: 10em;
+    border-radius:3px;
+    border:.5px solid #c0c0c0 !important;
+}
+.createissueform{
+    min-height:70vh !important;
+}
+
+@media (max-width:768px){
+    .types span{
+        display: none;
+        float:left;
+        font-size:10px;
+    }
+}
